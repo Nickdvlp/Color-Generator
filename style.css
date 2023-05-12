@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  background-color: white;
+  width: 70vh;
+  height: 20vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+  border-radius: 10px;
+}
+.text {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: x-large;
+  font-weight: 1000;
+}
+#button {
+  width: 50vh;
+  padding: auto 10px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  animation: myAnime 1s;
+}
+#button:hover {
+  background-color: grey;
+  transition: 1s;
+}
+
+@keyframes myAnine {
+  0% {
+    translatex: 0px;
+  }
+
+  50% {
+    translatex: 5px;
+  }
+
+  100% {
+    translatex: 0px;
+  }
+}
